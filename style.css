@@ -1,0 +1,464 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    max-width: 100%;
+    background-color: #8080ff !important;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.linkdiv{
+   background-color: #8080ff;
+   width: 100%;
+   /* margin: 0px auto; */
+   flex-wrap: wrap;
+   margin: 0px auto 0px auto;
+   /* height: 50px; */
+   overflow: hidden;
+
+}
+.links{
+ /* width: 80%; */
+ background-color:#8080ff;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+/* margin: 0px auto; */
+margin: 0px 10px 10px 100px;
+text-decoration: none;
+}
+.linksbox{
+    padding: 0px;
+    margin-top: 0px;
+    justify-content: space-between; 
+    text-decoration: none;
+    /* padding: 20px; */
+    background-color:#8080ff;
+
+}
+.facebook{
+    text-decoration: none;
+    width: 35px;
+    height: 25px ;
+    /* margin-left: 4em; */
+
+}
+.whatsapp{
+    text-decoration: none;
+    width: 35px;
+    height: 25px ;
+    /* margin-right: 4em; */
+}
+img{
+
+    width: 25px;
+    height: 20px;
+
+}
+
+li{
+    display: inline-block;
+    margin: 10px auto;      
+}
+.parabox{
+    font-size: smaller;
+    color: white;
+    text-align: center;
+    margin: 15px 15px 0px 4px;
+    background-color:#8080ff;
+}
+button{
+  height: 30px;    
+  color: black;
+}
+.buttonbox{
+    width: 400px;
+    margin: 10px auto;   
+    background-color:#8080ff;
+    height: 2em;
+
+}
+.div2{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin: 0px auto ; */
+}
+.container2{
+    width: 100%;
+    color:black;
+    background-color:whitesmoke;
+    margin: 2px auto;
+}
+.saylanilogo{
+    margin-top: 5px;
+    width: 200px;
+    height: 50px;
+    justify-content: space-around;
+    margin-left: 130px;
+    background-color: whitesmoke;
+}
+
+.div2 ul{
+    margin:0;
+    padding:0;
+    ;
+}
+.div2 li{
+    flex-wrap: wrap ;
+    float: left;
+    display: inline-block;
+    justify-content: left;
+    padding: 5px 5px 0px 20px;
+}
+.div2 .logo{
+    float: left;
+    margin: 5px auto;
+}
+.div2 nav{
+    background-color:whitesmoke;
+    float: right;
+    margin-top: 0px;
+}
+
+.div2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    background-color:whitesmoke;
+  }
+  
+  .div2  li {
+    float: left;
+  }
+  .div2 .home{
+      background-color:#8080ff;
+  }
+  
+  .div2 li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: left;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 40px;
+  }
+  
+  .div2 button{
+     background-color: whitesmoke;
+     border: none;
+     border-radius: 50px;
+     font-size: medium;
+     margin: 0px;
+     height: 2em;
+  
+  }
+  .div2 button:hover{
+    background-color: #8080ff ;
+  }
+  .div2 li a:hover, .dropdown:hover .dropbtn {
+    background-color:#8080ff;
+  }
+  
+  .div2 li.dropdown {
+    display: inline-block;
+  }
+  
+  .div2 .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .div2 .dropdown-content a {
+    
+    color: blue;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .div2 .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    
+  }
+
+  .pic1{
+    width: 100%;
+    height: 100%;
+  }
+  .carousel slide{
+    margin-bottom: 0px;
+  }
+  .div3{
+    width: 100%;
+    margin-top: 0px;
+    background-color:white;
+    color: white;
+    padding: 10px;
+  }
+  .div3marquee{
+    width: 80%;
+    background-color: #8080ff;
+    margin: 0px auto;
+  }
+
+          /*    introduction       */
+    
+  .introspell{
+    text-align: center;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+.introduction{
+    background-color: whitesmoke;
+    /* margin-bottom: 5em; */
+    padding: 5em;
+}
+.INTRO{
+    width: 80%;
+    text-align: center;
+    margin: 5px auto 5px auto;
+}
+.para{
+    /* width: 50%;
+    height: 50%;
+    margin: 10px auto; */
+    padding: 10px;
+    line-height: 2em;
+    color: gray;
+    text-align: justify;
+    
+}
+.intrologo{
+    width: 80px;
+    height: 50%;
+    margin: 2em auto 2em auto;
+}
+
+  /* Daily  */
+ .monthlyinside{
+  width: 100%;
+  text-align: center;
+  background-color: whitesmoke ;
+  margin: 0px auto 0px auto ;
+}
+.montlyimage{
+    width: 100%;
+    height: 100%;
+    /* margin: 0px 10px 0px 20; */
+}
+
+.doing{
+  padding-bottom: 50px;
+  padding-top: 50px;
+
+    /* padding: 1em; */
+    background-color: whitesmoke;
+}
+.doingboxes{
+    text-align: center;
+    
+}
+.box{
+  flex-wrap: wrap;
+    box-shadow: 5px 5px 10px 5px gray;
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin: 15px 5px 5px 5px;
+    border: 5px solid whitesmoke
+}
+.imges{
+    width: 100px;
+    height: 60%;
+    padding: 10px;
+    margin-top: 10px;
+}
+.doingpara{
+    color: #2554C7;
+    font-weight: bold;
+
+}
+
+
+
+                    /*  image gallery   */
+
+ .pic2{
+    width: 100%;
+    height: 100%;
+  }                  
+
+  .roww {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    padding-left: 30px;
+   }
+  .coll div
+  {
+    
+  }
+  .gallery{
+    width:200px;
+    height: 130px;
+    /* display: flex;
+    display: inline;
+    justify-content: space-between; */
+  }
+  .imagegallery{
+    padding-top: 60px;
+    padding-bottom: 150px;
+    background-color: white;
+  }
+
+
+           /*  */
+.missionbox{
+    /* padding: 100px; */
+    padding-left: 0px;
+    display: inline-block;
+    margin: 10px 20px 10px 5px;
+    background-color: whitesmoke;
+    border: 5px solid whitesmoke;
+    box-shadow: 5px 5px 5px 5px gray;
+    width: 220px;
+    height: 50px;
+}
+.missioninside{
+    text-align: left;
+    /* padding-left: 50px; */
+}
+.missionoutside{
+  float: left;
+  display: inline-block;
+}
+.gray{
+    /* padding: 50px; */
+    padding-top: 40px; 
+    width: 50%;
+     /* width: 600px; */
+    /* height: 400px; */
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    margin-left: 100px;
+    display: inline-block;
+  
+}
+.green{
+    text-align: left;
+    padding-top: 30px;
+    width: 30%;
+    /* height: 300px; */
+    background-color:white;
+    display: flex;
+    justify-content: right;
+    /* justify-items: start; */
+    margin: 10px auto auto 40px;
+    /* margin: 5em 5em 0em 20em; */
+    float: right;
+}
+.missionboxUpcoming{
+    width: 220px ;
+    height: 170px;
+    background-color: white;
+    /* display:inline-block; */
+}
+h3{
+  color: #8080ff;
+}
+span{
+  color: #8080ff;
+}
+.bgray{
+ display: flex;
+ flex-wrap: wrap;
+  justify-content: space-between;    
+ background-color: white;
+ margin: 0px auto;
+ padding-bottom: 50px;
+ width: 100%;
+ /* height: 100%; */
+ /* border: 5px solid red; */
+  /* padding-top: 2em;
+ padding-left: 8em;    
+ padding-right: 10px;  */
+}
+
+          /*  */
+ .add{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   width: 100%;
+   height: 100%;
+   background-color: #1f1f2e;
+   background-image: url(Pictures/Saylani_logo.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   margin: 0px auto;
+
+ }     
+
+ .simple{
+   width: 20%;
+   margin: 40px auto;
+   color: white;
+   text-align: center;
+   text-decoration: underline;
+ }   
+ .address{
+  width: 20%;
+  color: #f1f1f1;
+  margin: 40px auto;
+}  
+.add .links{
+  background-color: #1f1f2e;
+  margin-top: 40px;
+  text-align: center;
+   margin-right: 40px; 
+
+}
+.add .whatsapp{
+  width: 35px;
+  height: 23px;
+  margin-right: 5em;
+}
+.add .facebook{
+  width: 40px;
+  height: 30px;
+  /* margin-left: 3em; */
+  /* border-radius: 200px ; */
+}
+.add img{
+  width: 25px;
+  height: 20px;
+  /* border-radius: 100px; */
+ 
+}
+.lastdiv{
+  width: 100%;
+  /* height: 10%; */
+  background-color: #8080ff ;
+  color: #f1f1f1;
+  text-align: left;
+  margin: 0px auto;
+  padding-left: 80px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
